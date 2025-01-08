@@ -1823,6 +1823,8 @@ class ApiGateway {
       this.handleError({
         e, context, query, res, requestStarted
       });
+
+      return null;
     }
   }
 
@@ -1959,6 +1961,8 @@ class ApiGateway {
       this.handleError({
         e, context, query, res, requestStarted
       });
+
+      return null;
     }
   }
 
